@@ -4,7 +4,7 @@
 <body>
 
     <h2>Arthit Rattanakul</h2>
-    ant<img src=" {{ $ant }} "Trulli width="500" height="250">
+    bird<img src=" {{ $bird }} "Trulli width="500" height="250">
 
 </body>
 

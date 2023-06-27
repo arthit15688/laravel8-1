@@ -64,7 +64,7 @@ Route::get("/gallery/ant", function () {
 });
 
 Route::get("/gallery/bird", function () {
-    $bird = "https://www.hebergementwebs.com/image/cc/cc8811773d2cdbeb4d46e5550fc455fe.jpg/falcon-and-the-winter-soldier-falcon-minifigure-captain-america.jpg";
+    $bird = "https://images.indianexpress.com/2021/03/falcon-anthony-mackie-1200.jpg";
     return view("test/bird", compact("bird"));
 });
 
