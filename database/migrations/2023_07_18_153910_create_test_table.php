@@ -17,6 +17,7 @@ class CreateTestTable extends Migration
            
             $table->id();
             $table->timestamps();
+            
             $table->integer('name')->nullable();
             $table->float('number')->nullable();
             $table->string('aaa')->nullable();
